@@ -1,7 +1,7 @@
 import {ProductModelServer} from "./product.model";
 
 export interface CartModelServer {
-  total: Number;
+  total: number;
   data: [{
     product: ProductModelServer,
     numInCart: Number
@@ -9,7 +9,7 @@ export interface CartModelServer {
 }
 
 export interface CartModelPublic {
-  total: Number;
+  total: number;
   prodData: [{
     id: Number,
     incart: Number
